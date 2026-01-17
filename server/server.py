@@ -14,7 +14,8 @@ import os
 # ============================================================================
 
 # DEPLOYMENT: Uncomment this line and comment out the next one
-from server import util
+from . import util
+
 
 # LOCAL DEVELOPMENT: Uncomment this line and comment out the one above
 # import util

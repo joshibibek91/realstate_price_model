@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: bhp-home-price
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server.server:app
